@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+body {
+  font-family: 'Cinzel', serif;
+  background-color: #1e1b29;
+  color: #f0e6d2;
+  margin: 0;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #3b2f63;
+  color: #ffd700;
+  padding: 1.5rem 0;
+  text-align: center;
+  border-bottom: 4px solid #ffd700;
+  box-shadow: 0 4px 10px rgba(255, 215, 0, 0.2);
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: #ffd700;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 2px solid #ffd700;
+  background-color: transparent;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  background-color: #ffd700;
+  color: #1e1b29;
+}
+
+.search-bar {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 250px;
+  max-width: 100%;
+  font-size: 14px;
+  font-family: 'Cinzel', serif;
+  border: 2px solid #cfa81d;
+  background-color: #2c2541;
+  color: #ffd700;
+  border-radius: 6px;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+h1, h2 {
+  color: #ffd700;
+  border-bottom: 2px solid #cfa81d;
+  padding-bottom: 0.5rem;
+}
+
+section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #2c2541;
+  border-left: 5px solid #cfa81d;
+  box-shadow: 0 0 10px rgba(207, 168, 29, 0.3);
+}
+
+ul {
+  padding-left: 20px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 6px;
+  margin-top: 10px;
+  border: 2px solid #ffd700;
+}
+
+#toggle-theme {
+  padding: 10px 15px;
+  background-color: #3b2f63;
+  color: #ffd700;
+  border: 2px solid #ffd700;
+  cursor: pointer;
+  border-radius: 6px;
+  font-family: 'Cinzel', serif;
+  transition: 0.3s ease;
+}
+
+#toggle-theme:hover {
+  background-color: #ffd700;
+  color: #1e1b29;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #3b2f63;
+  color: #f0e6d2;
+  border-top: 4px solid #ffd700;
+  font-size: 0.85rem;
+  margin-top: 40px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JavaScript Cheat Sheet</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="html-cheatsheet.html">HTML Cheat Sheet</a></li>
+        <li><a href="css-cheatsheet.html">CSS Cheat Sheet</a></li>
+        <li><a href="js-cheatsheet.html" class="active">JavaScript Cheat Sheet</a></li>
+        <li><a href="resume.html">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1> JavaScript Cheat Sheet</h1>
+      <p>Filter JavaScript concepts:</p>
+      <input type="text" id="search" placeholder="Search JavaScript functions..." />
+
+      <ul id="cheat-list">
+        <li><strong>Variables:</strong><br><code>let x = 5; const y = 'hello';</code></li>
+        <li><strong>Functions:</strong><br><code>function greet() { alert('Hi!'); }</code></li>
+        <li><strong>Arrow Functions:</strong><br><code>const sum = (a, b) => a + b;</code></li>
+        <li><strong>Objects:</strong><br><code>const user = { name: 'Alex', age: 20 };</code></li>
+        <li><strong>Arrays:</strong><br><code>const list = [1, 2, 3];</code></li>
+        <li><strong>Array Methods:</strong><br><code>list.map(n => n * 2);</code></li>
+        <li><strong>Conditionals:</strong><br><code>if (x > 5) { ... }</code></li>
+        <li><strong>Loops:</strong><br><code>for (let i = 0; i < 5; i++) { ... }</code></li>
+        <li><strong>Events:</strong><br><code>button.addEventListener('click', fn);</code></li>
+        <li><strong>DOM Manipulation:</strong><br><code>document.getElementById('id');</code></li>
+        <li><strong>Template Literals:</strong><br><code>`Hello ${name}`</code></li>
+        <li><strong>JSON:</strong><br><code>JSON.parse(jsonStr);</code></li>
+        <li><strong>Local Storage:</strong><br><code>localStorage.setItem('key', 'value');</code></li>
+        <li><strong>Try/Catch:</strong><br><code>try { ... } catch (e) { ... }</code></li>
+        <li><strong>SetTimeout/SetInterval:</strong><br><code>setTimeout(fn, 1000);</code></li>
+      </ul>
+
+      <button id="toggle-theme">Toggle Light/Dark</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Personal Website | JavaScript makes it dynamic!</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
